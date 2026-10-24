@@ -20,6 +20,7 @@ OrderStream engineers mission-critical developer infrastructure that solves high
 
 | Solution | Technology | Focus & Enterprise ROI | Repository |
 | :--- | :--- | :--- | :--- |
+| **OrderStream Engineering Mesh** | Python / Rust / eBPF | Unified 24-Solver Architecture across 6 Pillars eliminating $120B+ monorepo lock, CI thrashing & supply chain drift. | [`OrderStream/orderstream-mesh`](https://github.com/OrderStream/orderstream-mesh) |
 | **Semantic Merge Guard** | Rust AST Parser | Prevents silent main-branch crashes caused by cross-branch symbol renaming without full test lag. Saves $45k/hr per 100-dev team. | [`OrderStream/semantic-merge-guard`](https://github.com/OrderStream/semantic-merge-guard) |
 | **PR Cost Firewall** | Git Delta Engine | Prunes unchanged build/test matrix targets in <200ms before compute minutes accrue. Guaranteed 40–60% CI cost reduction. | [`OrderStream/pr-cost-firewall`](https://github.com/OrderStream/pr-cost-firewall) |
 | **Soroban Smart Account** | Rust / Soroban v22 | Autonomous AI agent smart account reference with daily spending limits, authorized callee contracts, and `__check_auth` validation. | [`OrderStream/soroban-agent-account`](https://github.com/OrderStream/soroban-agent-account) |
@@ -30,6 +31,21 @@ OrderStream engineers mission-critical developer infrastructure that solves high
 | **Zero-Downtime DB Guard** | Ephemeral DB Sandbox | Simulates schema migrations against shadow instances to block non-backward-compatible locks before production deployment. | [`OrderStream/zero-downtime-migration-guard`](https://github.com/OrderStream/zero-downtime-migration-guard) |
 | **Soroban Telemetry Sentinel** | Event Ingest Engine | 24/7 on-chain event stream monitoring with automated TTL expiration alarms before contract state decay occurs. | [`OrderStream/soroban-telemetry`](https://github.com/OrderStream/soroban-telemetry) |
 | **WASM Gas & Memory Profiler** | Bytecode Instrumenter | Zero-overhead profiler injecting execution probes directly into WASM binaries to diagnose silent linear-memory leaks and gas spikes. | [`OrderStream/wasm-gas-profiler`](https://github.com/OrderStream/wasm-gas-profiler) |
+
+---
+
+## 🏛️ The 24 Enterprise Pillars (OrderStream Engineering Mesh)
+
+OrderStream pioneers the definitive 24-solution architecture across the 6 hardest problems in modern systems engineering ($120B+ Annual Bleed):
+
+| Pillar | Focus | Bleed TAM | Breakthrough Engineering Weapons (Built into Mesh) |
+| :--- | :--- | :--- | :--- |
+| **Pillar 1: VCS Storage Engine & Kernel Boundaries** | Single Index Lock Contention, CI Refspec Explosion, LFS Single-Byte Invalidation, Tree Inode Case Desync | **$15.3B** | Hierarchical MVCC B-Tree Virtual Index, Roaring Bitmap Commit Graph Ref Negotiator, FastCDC Merkle Streaming, Unicode NFKC Case-Folding Webhook Gate |
+| **Pillar 2: Repo Topology & Cross-Repo Consistency** | Submodule Detached-HEAD, Transitive Lockfile Merge Hell, Contract Drift, Git Filter History Rewrites | **$20.9B** | Multi-Repo Cryptographic Tx Protocol, SAT-Graph Aware Git Merge Driver (`git-merge-solver`), Contract Hypergraph, Cryptographic Merkle Redaction |
+| **Pillar 3: CI/CD Runner Isolation & Kernel MMU** | Action Context Injection, Cache Poisoning, Fork/Exec MMU Thrashing, Runner Slot Starvation | **$18.7B** | Formal Context-Flow Taint Analysis Engine, Zero-Trust Content-Addressed HSM Cache Attestation, Single-Address Wasm AST Server, Preemptive CRIU Hypervisor |
+| **Pillar 4: Supply Chain Provenance & Registry Integrity** | Release Tag vs Registry Drift, Signing Key Expiry, Dependency Abandonment, SBOM False-Positive Paralysis | **$23.4B** | SLSA Level 4 Attestation Engine, RFC 3161 Merkle Timestamp Authority, Automated In-Tree AST Micro-Patcher, eBPF & SMT Reachability Solver |
+| **Pillar 5: GitOps & Enterprise Scale** | Infrastructure Drift Loops, GitHub API Rate-Limits, GHES Replication Latency, AST Blame Invalidation | **$19.1B** | Cloud Event Bus to Git Reverse-Compiler (Lens Calculus), API Multiplexer & Adaptive Token-Bucket Shaper, CRDT Distributed Git Engine, Semantic AST Blame |
+| **Pillar 6: Socio-Technical & Review Horizons** | Branch Protection Deadlocks, Dependabot PR Exhaustion, Flat Textual LGTM Review, Monorepo Symbol Search | **$24.6B** | Dynamic Context Policy Engine (OPA/Cedar), Differential Behavioral Fuzzing Sandbox, Dynamic State Transition Diff Projection, Incremental SCIP Symbol Indexer |
 
 ---
 
