@@ -99,5 +99,5 @@ OrderStream code is battle-tested across leading production protocols and reposi
 
 ### Contact & Enterprise Inquiries
 - **Commercial Hub**: [`OrderStream/orderstream-commercial-hub`](https://github.com/OrderStream/orderstream-commercial-hub)
-- **Email**: `hashdecode77@gmail.com`
+- **Email**: `healthdecoded77@gmail.com`
 - **GitHub**: [@OrderStream](https://github.com/OrderStream)
